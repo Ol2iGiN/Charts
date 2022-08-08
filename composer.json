@@ -1,5 +1,5 @@
 {
-    "name": "Larav/charts",
+    "name": "larav/charts",
     "description": "The laravel charting package",
     "license": "MIT",
     "type": "library",
