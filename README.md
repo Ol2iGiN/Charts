@@ -1,0 +1,1 @@
+<p>Laravel charts</p>

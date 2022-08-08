@@ -1,0 +1,31 @@
+{
+    "name": "Larav/charts",
+    "description": "The laravel charting package",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "^5.0|^6.0|^7.0|^8.0",
+        "illuminate/console": "^5.0|^6.0|^7.0|^8.0",
+        "balping/json-raw-encoder": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Èrik Campobadal Forés ",
+            "email": "soc@erik.cat"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Larav\\Charts\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Larav\\Charts\\ChartsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
